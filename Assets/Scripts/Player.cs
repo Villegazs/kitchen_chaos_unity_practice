@@ -11,10 +11,13 @@ public class Player : MonoBehaviour
     
     private bool isWalking;
     private Vector3 lastInteractDir;
+    private void Start()
+    {
+        gameInput.OnInteractAction += GameInput_OnInteractAction;
+    }
     private void Update()
     {
         HandleMovement();
-        HandleInteraction();
     }
     
 
@@ -23,7 +26,7 @@ public class Player : MonoBehaviour
         return isWalking;
     }
 
-    private void HandleInteraction()
+    private void GameInput_OnInteractAction(object sender, EventArgs e)
     {
         Vector2 inputVector = gameInput.GetMovementVectorNormalized();
         
@@ -43,9 +46,6 @@ public class Player : MonoBehaviour
                 clearCounter.Interact();
             }
         }
-        
-        
-        
     }
     private void HandleMovement()
     {
