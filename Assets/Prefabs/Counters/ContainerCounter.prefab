@@ -52,6 +52,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4841286013473667211, guid: 9a9137fa2b035d34e881701d2c178192, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 91e8fe3de9249fc44b7bdd8050062896, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -167,7 +171,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   counterTopPoint: {fileID: 4720721617048657389}
-  kitchenObjectSo: {fileID: 11400000, guid: 7d72d9c87145f7542a4177509ef18e86, type: 2}
+  kitchenObjectSo: {fileID: 0}
 --- !u!4 &4720721617048657389 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 9097521904966766499, guid: b43d3be0de23d624487fd75736e71d57, type: 3}
