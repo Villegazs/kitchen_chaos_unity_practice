@@ -14,39 +14,39 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   currentVersion: 1.01
   subtype: kitchenchaos
-  lastShownTimestamp: 1769450867
+  lastShownTimestamp: 1769537270
   lastUpdateResponse:
-    version: 1.00
+    version: 1.01
     versionUrl: https://unitycodemonkey.com
-  checkedLastUpdateTimestamp: 1769450867
+  checkedLastUpdateTimestamp: 1769537270
   lastQOTDResponse:
-    questionId: 163
-    questionText: What is the purpose of Unity Hub?
-    answerA: Provide a space for the community to interact
-    answerB: Manage different Unity versions and Projects
-    answerC: Dashboard for Unity services
+    questionId: 266
+    questionText: Where is the modulo % operator particularly useful?
+    answerA: Looping back on a list
+    answerB: Counting elements in a list
+    answerC: Creating a new list with size
     answerD: 
     answerE: 
-  lastQotdTimestamp: 1769450867
+  lastQotdTimestamp: 1769537270
   lastDynamicHeaderResponse:
-    topImageUrl: https://codemonkeyexternal.blob.core.windows.net/external/Misc/humbleBundleSyntyMar25.png
-    topText: Make ANY game with these awesome Assets! (96% OFF ENDS SOON!)
-    topLink: humblebundle
-    bottomText: Learn Unity DOTS for MASSIVE Performance Boosts! (and make an RTS)
-    bottomLink: dotscourse
-  lastDynamicHeaderTimestamp: 1769450867
+    topImageUrl: https://codemonkeyexternal.blob.core.windows.net/external/Misc/gameDevReport_2.png
+    topText: Stay up to date with the latest in Game Dev straight to your inbox!
+    topLink: gamedevreport
+    bottomText: My 10+ Years of C# Knowledge in 1 Course!
+    bottomLink: csharpcourse
+  lastDynamicHeaderTimestamp: 1769537270
   websiteLatestMessage:
     text: <a href="https://cmonkey.co/freecourses">Check out all my FREE courses!
       Click here!</a>
-  websiteLatestMessageTimestamp: 1769450867
+  websiteLatestMessageTimestamp: 1769537270
   websiteLatestVideos:
     videos:
-    - youTubeId: ZIg7VoD9ptI
-      title: The FUTURE of Unity in 2025 and BEYOND!
-    - youTubeId: W_XOZAWJF24
-      title: I made the MOST PROFITABLE Game as a Test!
-    - youTubeId: J0KMvH-yFmA
-      title: TOP 10 NEW Games, Made with Unity! (FEBRUARY 2025)
-    - youTubeId: DOSLOa7cnoE
-      title: I SHOULD have done this a long time ago, and YOU too!
-  websiteLatestVideosTimestamp: 1769450867
+    - youTubeId: dYImrPahrME
+      title: STUCK for HOURS trying to write Code? Watch this!
+    - youTubeId: ZxPFiJgEQT0
+      title: TOP 10 NEW Systems and Tools JANUARY 2026! | Unity Asset Store
+    - youTubeId: 4ZcETvXRfl0
+      title: Roadmaps for Game Dev SUCCESS in 2026! (Beginner, Intermediate and Marketing)
+    - youTubeId: 3hrhAS-q3Z0
+      title: TOP 10 FREE NEW Assets JANUARY 2026!
+  websiteLatestVideosTimestamp: 1769537270
