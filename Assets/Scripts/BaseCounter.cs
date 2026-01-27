@@ -7,8 +7,13 @@ public class BaseCounter : MonoBehaviour, IKitchenObjectParent
     private KitchenObject kitchenObject;
     public virtual void Interact(Player player)
     {
-        Debug.Log("BaseCounter Interact");
+        Debug.Log("BaseCounter.Interact()");
     }
+    public virtual void InteractAlternate(Player player)
+    {
+        Debug.Log("BaseCounter.InteractAlternate()");
+    }
+
     
     public Transform GetKitchenObjectFollowTransform()
     {

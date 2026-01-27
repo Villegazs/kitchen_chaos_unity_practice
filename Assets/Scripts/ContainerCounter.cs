@@ -4,7 +4,7 @@ using System;
 public class ContainerCounter : BaseCounter
 {
     public event EventHandler OnPlayerGrabbedObject;
-    [SerializeField] private KitchenObjectSO kitchenObjectSo;
+    [SerializeField] private KitchenObjectSO kitchenObjectSO;
     
     public override void Interact(Player player)
     {
@@ -12,8 +12,7 @@ public class ContainerCounter : BaseCounter
         if (!player.HasKitchenObject())
         {
             //Player is not carrying anything
-            Transform kitchenObjectTransform = Instantiate(kitchenObjectSo.prefab);
-            kitchenObjectTransform.GetComponent<KitchenObject>().SetKitchenObjectParent(player);
+            KitchenObject.SpawnKitchenObject(kitchenObjectSO, player);
             OnPlayerGrabbedObject?.Invoke(this, EventArgs.Empty);
         }
 

@@ -13,6 +13,10 @@ PrefabInstance:
       value: ContainerCounter_Tomato
       objectReference: {fileID: 0}
     - target: {fileID: 7772229146107289746, guid: 1e84827ade890a0408ffed566b1c92d2, type: 3}
+      propertyPath: kitchenObjectSO
+      value: 
+      objectReference: {fileID: 11400000, guid: 7d72d9c87145f7542a4177509ef18e86, type: 2}
+    - target: {fileID: 7772229146107289746, guid: 1e84827ade890a0408ffed566b1c92d2, type: 3}
       propertyPath: kitchenObjectSo
       value: 
       objectReference: {fileID: 11400000, guid: 7d72d9c87145f7542a4177509ef18e86, type: 2}
