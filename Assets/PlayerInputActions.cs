@@ -59,7 +59,7 @@ public partial class @PlayerInputActions: IInputActionCollection2, IDisposable
                     ""type"": ""Button"",
                     ""id"": ""643b1a41-e025-4987-a566-59e5c23dcf11"",
                     ""expectedControlType"": """",
-                    ""processors"": """",
+                    ""processors"": ""AxisDeadzone(min=0.5)"",
                     ""interactions"": """",
                     ""initialStateCheck"": false
                 }
@@ -122,8 +122,30 @@ public partial class @PlayerInputActions: IInputActionCollection2, IDisposable
                 },
                 {
                     ""name"": """",
+                    ""id"": ""6a27619f-d8e6-4c2e-8d46-d53cffbc93b5"",
+                    ""path"": ""<Gamepad>/leftStick"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Move"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
                     ""id"": ""aa8df67b-1bce-4fa4-a3da-461cb54dc6e8"",
                     ""path"": ""<Keyboard>/e"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Interact"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""f729b2f3-100a-47a9-9d06-c7097335082c"",
+                    ""path"": ""<Gamepad>/buttonSouth"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
@@ -144,8 +166,30 @@ public partial class @PlayerInputActions: IInputActionCollection2, IDisposable
                 },
                 {
                     ""name"": """",
+                    ""id"": ""72f1dcac-1a89-4686-9eef-1558b2a7df48"",
+                    ""path"": ""<Gamepad>/buttonWest"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""InteractAlternate"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
                     ""id"": ""31047315-296a-460f-9e6c-778d95048c40"",
                     ""path"": ""<Keyboard>/escape"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Pause"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""857a7cdc-3f87-4d31-baf2-e1b91fbab8ba"",
+                    ""path"": ""<Gamepad>/start"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
