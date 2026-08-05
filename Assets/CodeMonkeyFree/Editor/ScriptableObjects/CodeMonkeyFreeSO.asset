@@ -14,39 +14,41 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   currentVersion: 1.01
   subtype: kitchenchaos
-  lastShownTimestamp: 1785445282
+  lastShownTimestamp: 1785957245
   lastUpdateResponse:
     version: 1.01
     versionUrl: https://unitycodemonkey.com
-  checkedLastUpdateTimestamp: 1785445282
+  checkedLastUpdateTimestamp: 1785957245
   lastQOTDResponse:
-    questionId: 266
-    questionText: Where is the modulo % operator particularly useful?
-    answerA: Looping back on a list
-    answerB: Counting elements in a list
-    answerC: Creating a new list with size
+    questionId: 329
+    questionText: What is the main difference between the out and ref keywords? (behaviour
+      inside the function)
+    answerA: out doesn't need to be set; ref MUST be set
+    answerB: out MUST be set; ref doesn't need to be set
+    answerC: No difference
     answerD: 
     answerE: 
-  lastQotdTimestamp: 1785445282
+  lastQotdTimestamp: 1785957245
   lastDynamicHeaderResponse:
-    topImageUrl: https://codemonkeyexternal.blob.core.windows.net/external/Misc/gameDevReport_2.png
-    topText: Stay up to date with the latest in Game Dev straight to your inbox!
-    topLink: gamedevreport
-    bottomText: My 10+ Years of C# Knowledge in 1 Course!
-    bottomLink: csharpcourse
-  lastDynamicHeaderTimestamp: 1785445282
+    topImageUrl: https://codemonkeyexternal.blob.core.windows.net/external/Misc/summer2025CodeMonkeyBundle.png
+    topText: Get 80% OFF on ALL my Courses and Games!!!
+    topLink: summerbundle
+    bottomText: DONT MISS the latest important trends, sign up for my FREE Weekly
+      Newsletter!
+    bottomLink: gamedevreport
+  lastDynamicHeaderTimestamp: 1785957245
   websiteLatestMessage:
     text: <a href="https://cmonkey.co/freecourses">Check out all my FREE courses!
       Click here!</a>
-  websiteLatestMessageTimestamp: 1785445282
+  websiteLatestMessageTimestamp: 1785957245
   websiteLatestVideos:
     videos:
-    - youTubeId: dYImrPahrME
-      title: STUCK for HOURS trying to write Code? Watch this!
-    - youTubeId: ZxPFiJgEQT0
-      title: TOP 10 NEW Systems and Tools JANUARY 2026! | Unity Asset Store
-    - youTubeId: 4ZcETvXRfl0
-      title: Roadmaps for Game Dev SUCCESS in 2026! (Beginner, Intermediate and Marketing)
-    - youTubeId: 3hrhAS-q3Z0
-      title: TOP 10 FREE NEW Assets JANUARY 2026!
-  websiteLatestVideosTimestamp: 1785445282
+    - youTubeId: 2oHitHMNyNw
+      title: WHY Scope Creep DESTROYS Indie Games (and how to stop it)
+    - youTubeId: -1yYVVVN4as
+      title: BEST NEW Visual Assets to INSPIRE YOU! (JULY 2026)
+    - youTubeId: f0BSrBhudoY
+      title: TOP 10 NEW Systems and Tools JULY 2026! | Unity Asset Store
+    - youTubeId: _0Lp-iXEhfU
+      title: Join my Game Dev Practice Lab for FREE!
+  websiteLatestVideosTimestamp: 1785957245

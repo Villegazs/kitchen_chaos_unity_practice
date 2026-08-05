@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 6564912968834729661}
   - component: {fileID: -1864300780438228944}
   - component: {fileID: -7682120535019720423}
+  - component: {fileID: -748219837509934261}
   m_Layer: 0
   m_Name: CheeseBlock
   m_TagString: Untagged
@@ -74,6 +75,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ShowTopMostFoldoutHeaderGroup: 1
   kitchenObjectSo: {fileID: 11400000, guid: 34c5cf28563bb8141867318a38266098, type: 2}
+--- !u!114 &-748219837509934261
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1291699084294285111}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f34104ec7e20ddc4fad30f5fdba9fa34, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::FollowTransform
 --- !u!1001 &4601792783308927770
 PrefabInstance:
   m_ObjectHideFlags: 0
