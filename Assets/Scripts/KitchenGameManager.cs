@@ -25,7 +25,7 @@ public class KitchenGameManager : NetworkBehaviour
     private bool isLocalPlayerReady;
     private NetworkVariable<float> countdownToStartTimer = new NetworkVariable<float>(3f);
     private NetworkVariable<float> gamePlayingTimer = new NetworkVariable<float>(0f);
-    private float gameTimerMax = 10f;
+    private float gameTimerMax = 90f;
     private bool isGamePaused = false;
     private Dictionary<ulong, bool> playerReadyDictionary;
     private void Awake()
@@ -55,9 +55,9 @@ public class KitchenGameManager : NetworkBehaviour
         if (state.Value == State.WaitingToStart)
         {
             isLocalPlayerReady = true;
+            OnLocalPlayerReadyChanged?.Invoke(this, EventArgs.Empty);
             
             SetPlayerReadyServerRpc();
-            OnLocalPlayerReadyChanged?.Invoke(this, EventArgs.Empty);
         }
     }
 
