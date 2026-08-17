@@ -3507,7 +3507,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &341485632
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9906,6 +9906,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ShowTopMostFoldoutHeaderGroup: 1
+  playerPrefab: {fileID: 5959451574521268954, guid: fa29f902d579ca740b6a65b9425987b3, type: 3}
 --- !u!4 &1060700427
 Transform:
   m_ObjectHideFlags: 0
@@ -10352,7 +10353,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1208915433
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13269,7 +13270,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1662519419
 RectTransform:
   m_ObjectHideFlags: 0
