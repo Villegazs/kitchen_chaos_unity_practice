@@ -178,6 +178,11 @@ public class KitchenGameManager : NetworkBehaviour
         return state.Value == State.GameOver;
     }
 
+    public bool IsWaitingToStart()
+    {
+        return state.Value == State.WaitingToStart;
+    }
+
     public bool IsLocalPlayerReady()
     {
         return isLocalPlayerReady;
@@ -228,6 +233,7 @@ public class KitchenGameManager : NetworkBehaviour
             if (playerPausedDictionary.ContainsKey(clientId) && playerPausedDictionary[clientId])
             {
                 //This player is paused
+                Debug.Log($"Player {clientId} is paused");
                 isGamePaused.Value = true;
                 return;
             }

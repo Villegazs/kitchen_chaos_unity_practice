@@ -3561,7 +3561,7 @@ MonoBehaviour:
       - {fileID: 11400000, guid: dcc73fb82e2469441af999f2a2a6acb6, type: 2}
     TickRate: 30
     ClientConnectionBufferTimeout: 10
-    ConnectionApproval: 0
+    ConnectionApproval: 1
     ConnectionData: 
     EnableTimeResync: 0
     TimeResyncInterval: 30
@@ -16178,12 +16178,12 @@ RectTransform:
   - {fileID: 1468368716}
   - {fileID: 876126318}
   - {fileID: 589147432}
-  - {fileID: 1133835058}
   - {fileID: 1426463171}
   - {fileID: 435848712}
   - {fileID: 1040981240}
   - {fileID: 212600763}
   - {fileID: 1390151669}
+  - {fileID: 1133835058}
   - {fileID: 37880501}
   - {fileID: 1662519419}
   m_Father: {fileID: 0}
