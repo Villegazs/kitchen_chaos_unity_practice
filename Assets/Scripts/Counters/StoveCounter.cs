@@ -30,7 +30,10 @@ public class StoveCounter : BaseCounter, IHasProgress
 
     private void Start()
     {
-        state.Value = State.Idle;
+        if (IsServer)
+        {
+            state.Value = State.Idle;
+        }
     }
 
     public override void OnNetworkSpawn()

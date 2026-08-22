@@ -10193,7 +10193,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a1266abb3701feb488a669bbffadd5ee, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HostDisconnectUI
-  playAgainButton: {fileID: 80316241}
+  backToMenuButton: {fileID: 80316241}
 --- !u!4 &1166784674 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4650298496760439714, guid: f2efc29961ea3954589fdc53d0537762, type: 3}
@@ -10368,6 +10368,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::KitchenGameMultiplayer
   ShowTopMostFoldoutHeaderGroup: 1
   kitchenObjectListSO: {fileID: 11400000, guid: d05ca42416a5b3f41bd75ba7e256702a, type: 2}
+  playerColorList: []
 --- !u!4 &1208915434
 Transform:
   m_ObjectHideFlags: 0
