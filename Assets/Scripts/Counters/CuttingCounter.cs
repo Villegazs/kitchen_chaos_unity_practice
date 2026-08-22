@@ -98,7 +98,10 @@ public class CuttingCounter : BaseCounter, IHasProgress
     [Rpc(SendTo.Server, InvokePermission = RpcInvokePermission.Everyone)]
     private void CutObjectServerRpc()
     {
-        CutObjectClientRpc();
+        if (HasKitchenObject() && HasRecipeWithInput(GetKitchenObject().GetKitchenObjectSO()))
+        {
+            CutObjectServerRpc();
+        }
     }
 
     [Rpc(SendTo.Everyone)]
@@ -124,15 +127,18 @@ public class CuttingCounter : BaseCounter, IHasProgress
     [Rpc(SendTo.Server, InvokePermission = RpcInvokePermission.Everyone)]
     private void TestCuttingProgressDoneServerRpc()
     {
-        CuttingRecipeSO cuttingRecipeSO = GetCuttingRecipeSOWithInput(GetKitchenObject().GetKitchenObjectSO());
-        
-        if (cuttingProgress >= cuttingRecipeSO.cuttingProgressMax)
+        if (HasKitchenObject() && HasRecipeWithInput(GetKitchenObject().GetKitchenObjectSO()))
         {
-            KitchenObjectSO outputKitchenObjectSO = GetOutputForInput(GetKitchenObject().GetKitchenObjectSO());
-               
-            KitchenObject.DestroyKitchenObject(GetKitchenObject());
-            
-            KitchenObject.SpawnKitchenObject(outputKitchenObjectSO, this);
+            CuttingRecipeSO cuttingRecipeSO = GetCuttingRecipeSOWithInput(GetKitchenObject().GetKitchenObjectSO());
+
+            if (cuttingProgress >= cuttingRecipeSO.cuttingProgressMax)
+            {
+                KitchenObjectSO outputKitchenObjectSO = GetOutputForInput(GetKitchenObject().GetKitchenObjectSO());
+
+                KitchenObject.DestroyKitchenObject(GetKitchenObject());
+
+                KitchenObject.SpawnKitchenObject(outputKitchenObjectSO, this);
+            }
         }
     }
 
